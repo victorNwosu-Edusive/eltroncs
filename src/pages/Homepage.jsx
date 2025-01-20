@@ -140,11 +140,11 @@ function Homepage() {
 
           <section className="p-10 md:p-20 lg:p-20 pt-28 bg-white items-center text-center">
             <h1 className="text-[12px] md:text-sm lg:text-sm mb-7 text-slate-600">Explore a wide range of products tailored to your tech needs.</h1>
-            <div className="grid grid-cols-2 gap-3 md:flex lg:flex md:flex-wrap lg:flex-wrap justify-center md:gap-4 lg:gap-4 *:h-auto *:md:w-64 lg:*:w-52 *:rounded-md *:p-5 *:bg-slate-100 mx-auto">
-              <div className="flex-row justify-between hover:p-3 cursor-pointer duration-300"><img src={PhoneTablet} alt="" /> <p className=" p-1 bg-white rounded-full text-slate-400 text-[9px] md:text-[12px] lg:text-[12px]  mt-3">Phones & Tablets</p></div>
-              <div className="flex-row justify-between hover:p-3 cursor-pointer duration-300"><img src={Laptop} alt="" /><p className=" p-1 bg-white rounded-full text-slate-400 text-[8px] md:text-[12px] lg:text-[12px] mt-6 md:mt-6 lg:mt-7">Laptops & Computers</p></div>
-              <div className="flex-row justify-between hover:p-3 cursor-pointer duration-300"><img src={Gaming} alt="" /><p className=" p-1 bg-white rounded-full text-slate-400 text-[8px] md:text-[12px] lg:text-[12px]">Gaming Accessories</p></div>
-              <div className="flex-row justify-between hover:p-3 cursor-pointer duration-300"><img src={Wearable} alt="" /><p className=" p-1 bg-white rounded-full text-slate-400 text-[9px] md:text-[12px] lg:text-[12px]">Wearables</p></div>
+            <div className="grid grid-cols-2 gap-3 md:flex lg:flex md:flex-wrap lg:flex-wrap justify-center md:gap-4 lg:gap-4 *:h-auto *:md:w-64 lg:*:w-52 *:rounded-md *:p-4 *:bg-slate-100 mx-auto">
+              <div className="flex-row justify-between hover:p-1 cursor-pointer duration-300"><img src={PhoneTablet} alt="" /> <p className=" p-1 bg-white rounded-full text-slate-400 text-[9px] md:text-[12px] lg:text-[12px]  mt-3">Phones & Tablets</p></div>
+              <div className="flex-row justify-between hover:p-1 cursor-pointer duration-300"><img src={Laptop} alt="" /><p className=" p-1 bg-white rounded-full text-slate-400 text-[8px] md:text-[12px] lg:text-[12px] mt-6 md:mt-6 lg:mt-7">Laptops & Computers</p></div>
+              <div className="flex-row justify-between hover:p-1 cursor-pointer duration-300"><img src={Gaming} alt="" /><p className=" p-1 bg-white rounded-full text-slate-400 text-[8px] md:text-[12px] lg:text-[12px]">Gaming Accessories</p></div>
+              <div className="flex-row justify-between hover:p-1 cursor-pointer duration-300"><img src={Wearable} alt="" /><p className=" p-1 bg-white rounded-full text-slate-400 text-[9px] md:text-[12px] lg:text-[12px]">Wearables</p></div>
             </div>
           </section>
 
