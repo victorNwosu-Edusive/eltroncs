@@ -101,7 +101,7 @@ function Homepage() {
                     <h1 key={i} className={`p-1 px-3 font-bold md:font-[500] lg:font-[500] ${slide.tagColor} text-[8px] md:text-[10px] lg:text-[10px]`}>{tag}</h1>
                   ))}
                 </div>
-                <button className={`flex justify-center items-center px-3 p-2 rounded-md ${slide.buttonColor} hover:bg-black duration-300 text-white gap-4 text-[10px] md:text-[14px] lg:text-[14px] `}>
+                <button className={`flex justify-center items-center px-2 p-2 rounded-md ${slide.buttonColor} hover:bg-black duration-300 text-white gap-3 text-[10px] md:text-[14px] lg:text-[14px] `}>
                   {slide.buttonText} <MoveRight size={13} />
                 </button>
               </div>
@@ -152,33 +152,21 @@ function Homepage() {
             <h1 className="font-bold text-slate-600 text-xl lg:text-center">Bestsellers</h1>
               <div className="overflow-x-auto  [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
               <div className="flex space-x-4 w-max">
-                <div className="bg-slate-50 p-3 rounded-md w-56 md:w-56">
+                <div className="border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
                   <img src={BestOne} alt="" className="rounded-md" />
                   <div className="flex flex-col gap-4 mt-4">
                   <div className="flex flex-row justify-between">
                   <div className="flex flex-col">
                   <span className="text-sm font-bold">iPhone 16 Teal</span>
-                  <p className="text-xs text-gray-700">ID: 23432252</p>
+                  <p className="text-xs text-gray-700">128GB 8GB RAM</p>
                   </div>
                   <span className="font-bold text-red-600">$25.99</span>
                   </div>
-                  <button className="hover:bg-sky-700 text-gray-50 bg-sky-800 py-2 rounded-md">Add to cart</button>
+                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md">Add to cart</button>
                   </div>
                 </div>
 
-                <div className="bg-slate-50 p-3 rounded-md w-56 md:w-56">
-                  <img src={BestOne} alt="" className="rounded-md" />
-                  <div className="flex flex-col gap-4 mt-4">
-                  <div className="flex flex-row justify-between">
-                  <div className="flex flex-col">
-                  <span className="text-sm font-bold">iPhone 16 Teal</span>
-                  <p className="text-xs text-gray-700">ID: 23432252</p>
-                  </div>
-                  <span className="font-bold text-red-600">$25.99</span>
-                  </div>
-                  <button className="hover:bg-sky-700 text-gray-50 bg-sky-800 py-2 rounded-md">Add to cart</button>
-                  </div>
-                </div>
+                
 
 
                 
