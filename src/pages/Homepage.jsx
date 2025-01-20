@@ -9,6 +9,8 @@ import Laptop from '../assets/images/laptop.png';
 import Gaming from '../assets/images/gaming-access.png';
 import Wearable from '../assets/images/watch.png';
 import BestOne from '../assets/images/best-one.webp';
+import BestTwo from '../assets/images/best-two.jpg';
+import BestThree from '../assets/images/best-three.png';
 
 function Homepage() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -169,12 +171,12 @@ function Homepage() {
 
                 <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
                   <div className="absolute bg-slate-100 rounded-full p-2"><Heart size={15} /></div>
-                  <img src={BestOne} alt="" className="rounded-md" />
+                  <img src={BestTwo} alt="" className="rounded-md" />
                   <div className="flex flex-col gap-4 mt-4">
                   <div className="flex flex-row justify-between">
                   <div className="flex flex-col">
-                  <span className="text-sm font-bold">iPhone 16 Teal</span>
-                  <p className="text-xs text-gray-700">128GB 8GB RAM</p>
+                  <span className="text-sm font-bold">Hisense 32" TV</span>
+                  <p className="text-xs text-gray-700">Smart TV</p>
                   </div>
                   <span className="font-bold text-red-600">$25.99</span>
                   </div>
@@ -184,7 +186,7 @@ function Homepage() {
 
                 <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
                   <div className="absolute bg-slate-100 rounded-full p-2"><Heart size={15} /></div>
-                  <img src={BestOne} alt="" className="rounded-md" />
+                  <img src={BestThree} alt="" className="rounded-md" />
                   <div className="flex flex-col gap-4 mt-4">
                   <div className="flex flex-row justify-between">
                   <div className="flex flex-col">
