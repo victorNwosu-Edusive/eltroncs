@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { MoveRight } from "lucide-react";
+import { Heart, MoveRight, ShoppingBag } from "lucide-react";
 import HeroImageOne from '../assets/images/hero-section-one.png';
 import HeroPercent from '../assets/images/hero-percent.png';
 import HeroAccess from '../assets/images/hero-access.png';
@@ -152,7 +152,8 @@ function Homepage() {
             <h1 className="font-bold text-slate-600 text-xl lg:text-center">Bestsellers</h1>
               <div className="overflow-x-auto  [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
               <div className="flex space-x-4 w-max">
-                <div className="border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+              <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+                  <div className="absolute bg-slate-100 rounded-full p-2"><Heart size={15} /></div>
                   <img src={BestOne} alt="" className="rounded-md" />
                   <div className="flex flex-col gap-4 mt-4">
                   <div className="flex flex-row justify-between">
@@ -162,11 +163,12 @@ function Homepage() {
                   </div>
                   <span className="font-bold text-red-600">$25.99</span>
                   </div>
-                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md">Add to cart</button>
+                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
                 </div>
 
-                <div className="border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+                <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+                  <div className="absolute bg-slate-100 rounded-full p-2"><Heart size={15} /></div>
                   <img src={BestOne} alt="" className="rounded-md" />
                   <div className="flex flex-col gap-4 mt-4">
                   <div className="flex flex-row justify-between">
@@ -176,11 +178,12 @@ function Homepage() {
                   </div>
                   <span className="font-bold text-red-600">$25.99</span>
                   </div>
-                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md">Add to cart</button>
+                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
                 </div>
 
-                <div className="border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+                <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+                  <div className="absolute bg-slate-100 rounded-full p-2"><Heart size={15} /></div>
                   <img src={BestOne} alt="" className="rounded-md" />
                   <div className="flex flex-col gap-4 mt-4">
                   <div className="flex flex-row justify-between">
@@ -190,11 +193,12 @@ function Homepage() {
                   </div>
                   <span className="font-bold text-red-600">$25.99</span>
                   </div>
-                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md">Add to cart</button>
+                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
                 </div>
 
-                <div className="border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+                <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+                  <div className="absolute bg-slate-100 rounded-full p-2"><Heart size={15} /></div>
                   <img src={BestOne} alt="" className="rounded-md" />
                   <div className="flex flex-col gap-4 mt-4">
                   <div className="flex flex-row justify-between">
@@ -204,7 +208,22 @@ function Homepage() {
                   </div>
                   <span className="font-bold text-red-600">$25.99</span>
                   </div>
-                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md">Add to cart</button>
+                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
+                  </div>
+                </div>
+
+                <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
+                  <div className="absolute bg-slate-100 rounded-full p-2"><Heart size={15} /></div>
+                  <img src={BestOne} alt="" className="rounded-md" />
+                  <div className="flex flex-col gap-4 mt-4">
+                  <div className="flex flex-row justify-between">
+                  <div className="flex flex-col">
+                  <span className="text-sm font-bold">iPhone 16 Teal</span>
+                  <p className="text-xs text-gray-700">128GB 8GB RAM</p>
+                  </div>
+                  <span className="font-bold text-red-600">$25.99</span>
+                  </div>
+                  <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
                 </div>
 
