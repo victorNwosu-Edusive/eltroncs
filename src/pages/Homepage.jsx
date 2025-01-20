@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ChevronRight, Heart, MoveRight, ShoppingBag } from "lucide-react";
+import { ChevronRight, Heart, MailCheck, MessageCircle, MoveRight, ShoppingBag } from "lucide-react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import samsung from '../assets/images/samsung.png';
 import sony from '../assets/images/sony.png';
@@ -275,6 +275,11 @@ function Homepage() {
 
             </div>
 
+          </section>
+
+          <section className="p-10 pb-11 md:p-20 lg:p-20 bg-black grid grid-cols-1 gap-3 items-center justify-center">
+            <h1 className="text-white md:text-center lg:text-center">Subscribe to our Newsletter to get the latest news on our offers</h1>
+            <div className="grid md:flex lg:flex gap-3 md:justify-center lg:justify-center items-center"><div className="flex items-center gap-2"><MailCheck size={24} color="white" /><input type="text" className="border-[1px] border-solid border-white outline-none text-white p-2 px-5 bg-black w-full" placeholder="Your email address" /></div><button className="bg-white w-1/2 md:w-auto lg:w-auto text-black p-2 px-5 text-sm">Subscribe</button></div>
           </section>
 
     </main>
