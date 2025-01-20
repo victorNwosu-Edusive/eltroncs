@@ -148,8 +148,8 @@ function Homepage() {
             </div>
           </section>
 
-          <section className="relative p-10 pb-11 md:p-20 lg:p-20 bg-white items-center">
-            <h1 className="font-bold text-slate-600 text-xl lg:text-center">Bestsellers</h1>
+          <section className="relative p-10 pb-11 md:p-20 lg:p-20 bg-[#fffefe] items-center">
+            <h1 className="font-bold text-slate-600 text-xl md:text-2xl lg:text-2xl lg:text-center mb-7">Bestsellers</h1>
               <div className="overflow-x-auto  [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
               <div className="flex space-x-4 w-max">
               <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
