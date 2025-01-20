@@ -154,7 +154,7 @@ function Homepage() {
           </section>
 
           <section className="relative p-10 pb-11 md:p-20 lg:p-20 bg-[#fffefe] items-center">
-            <div className="flex justify-between items-center"><h1 className="font-bold text-slate-600 text-xl md:text-2xl lg:text-2xl lg:text-center mb-7">Bestsellers</h1> <NavLink className="flex justify-center items-center gap-2 text-slate-500 text-sm hover:underline duration-300">See more <ChevronRight size={13} /></NavLink></div>
+            <div className="flex justify-between items-center mb-7"><h1 className="font-bold text-slate-600 text-xl md:text-2xl lg:text-2xl lg:text-center">Bestsellers</h1> <NavLink className="flex justify-center items-center gap-2 text-slate-500 text-sm hover:underline duration-300">See more <ChevronRight size={13} /></NavLink></div>
               <div className="overflow-x-auto  [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
               <div className="flex space-x-4 w-max">
               <div className="relative border-slate-50 border-[2px] p-3 rounded-md w-56 md:w-56">
