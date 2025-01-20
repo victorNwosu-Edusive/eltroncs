@@ -190,8 +190,8 @@ function Homepage() {
                   <div className="flex flex-col gap-4 mt-4">
                   <div className="flex flex-row justify-between">
                   <div className="flex flex-col">
-                  <span className="text-sm font-bold">iPhone 16 Teal</span>
-                  <p className="text-xs text-gray-700">128GB 8GB RAM</p>
+                  <span className="text-sm font-bold">Poolee K650 </span>
+                  <p className="text-xs text-gray-700">Bluetooth Speaker</p>
                   </div>
                   <span className="font-bold text-red-600">$25.99</span>
                   </div>
