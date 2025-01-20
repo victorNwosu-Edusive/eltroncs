@@ -32,7 +32,7 @@ function Navbar() {
             <NavLink to="/" className='text-[13px] hover:text-blue-800 duration-300'>New arrivals</NavLink>
         </div>
 
-        <div className='space-x-1 md:space-x-3 lg:space-x-6 flex'>
+        <div className='space-x-1 md:space-x-3 lg:space-x-6 flex justify-center items-center'>
             <NavLink to="/" className='hover:bg-slate-200 duration-300 p-2 rounded-full'><User size={20} /></NavLink>
             <NavLink to="/" className='hidden md:block hover:bg-slate-200 duration-300 p-2 rounded-full'><CircleHelp size={20} /></NavLink>
             <NavLink to="/" className='hidden md:block hover:bg-slate-200 duration-300 p-2 rounded-full'><Heart size={20} /></NavLink>
