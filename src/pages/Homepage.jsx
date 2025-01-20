@@ -1,5 +1,11 @@
 import { useState, useEffect } from "react";
 import { ChevronRight, Heart, MoveRight, ShoppingBag } from "lucide-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import samsung from '../assets/images/samsung.png';
+import sony from '../assets/images/sony.png';
+import oriamo from '../assets/images/oraimo.png';
+import hisense from '../assets/images/hisense.png';
+import hp from '../assets/images/hp.png';
 import { NavLink } from "react-router-dom";
 import HeroImageOne from '../assets/images/hero-section-one.png';
 import HeroPercent from '../assets/images/hero-percent.png';
@@ -14,6 +20,7 @@ import BestTwo from '../assets/images/best-two.jpg';
 import BestThree from '../assets/images/best-three.png';
 import BestFour from '../assets/images/best-four.webp';
 import BestFive from '../assets/images/best-five.jpg';
+import { faApple } from "@fortawesome/free-brands-svg-icons";
 
 function Homepage() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -254,8 +261,19 @@ function Homepage() {
               </div>
           </section>
 
-          <section className="p-10 pb-11 md:p-20 lg:p-20 bg-black items-center">
-            
+          <section className="p-0 pt-20 pb-11 md:p-20 lg:p-20 items-center">
+          <h1 className="text-center mb-4 text-slate-500 text-[12px] font-bold tracking-widest">FEATURED BRANDS</h1>
+            <h1 className="font-bold text-slate-500 text-xl mb-4 md:text-2xl lg:text-2xl text-center"> Shop by Brand</h1>
+            <h1 className="text-center text-[12px] mb-7">Browse top tech brands trusted worldwide.</h1>
+            <div className="grid grid-cols-2 gap-1 *:bg-slate-200 m-0">
+              <div className="h-36 p-5 flex justify-center items-center hover:bg-slate-300 duration-300"><FontAwesomeIcon icon={faApple} className="text-black text-4xl" /></div>
+              <div className="h-36 p-5 flex justify-center items-center hover:bg-slate-300 duration-300"><img src={samsung} alt="" className="h-5" /></div>
+              <div className="h-36 p-5 flex justify-center items-center hover:bg-slate-300 duration-300"><img src={sony} alt="" className="h-14" /></div>
+              <div className="h-36 p-5 flex justify-center items-center hover:bg-slate-300 duration-300"><img src={hisense} alt="" className="h-5" /></div>
+              <div className="h-36 p-5 flex justify-center items-center hover:bg-slate-300 duration-300"><img src={hp} alt="" className="h-14" /></div>
+              <div className="h-36 p-5 flex justify-center items-center hover:bg-slate-300 duration-300"><img src={oriamo} alt="" className="h-5" /></div>
+
+            </div>
 
           </section>
 
