@@ -263,7 +263,7 @@ function Homepage() {
 
           <section className="p-0 pt-20 pb-11 md:p-20 lg:p-20 items-center">
           <h1 className="text-center mb-4 text-slate-500 text-[12px] font-bold tracking-widest">FEATURED BRANDS</h1>
-            <h1 className="font-bold text-slate-500 text-xl mb-4 md:text-2xl lg:text-2xl text-center"> Shop by Brand</h1>
+            <h1 className="font-bold text-slate-600 text-xl mb-4 md:text-2xl lg:text-2xl text-center"> Shop by Brand</h1>
             <h1 className="text-center text-[12px] mb-7">Browse top tech brands trusted worldwide.</h1>
             <div className="grid grid-cols-2 gap-1 *:bg-slate-200 m-0">
               <div className="h-36 p-5 flex justify-center items-center hover:bg-slate-300 duration-300"><FontAwesomeIcon icon={faApple} className="text-black text-4xl" /></div>
