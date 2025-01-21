@@ -37,7 +37,7 @@ function Navbar() {
             <NavLink to="/" className='hover:bg-slate-200 duration-300 p-2 rounded-full'><User size={20} /></NavLink>
             <NavLink to="/" className='hidden md:block hover:bg-slate-200 duration-300 p-2 rounded-full'><CircleHelp size={20} /></NavLink>
             <NavLink to="/" className='hidden md:block hover:bg-slate-200 duration-300 p-2 rounded-full'><Heart size={20} /></NavLink>
-            <NavLink to="/" className='hover:bg-slate-200 duration-300 p-2 rounded-full'><ShoppingCart size={20} /></NavLink>
+            <NavLink to="/cart" className='hover:bg-slate-200 duration-300 p-2 rounded-full'><ShoppingCart size={20} /></NavLink>
         
             <div className="pl-5 lg:hidden" onClick={toggleMenu}>
           <button className="text-white focus:outline-none relative scale-x-[-1] w-6 h-6 z-50">

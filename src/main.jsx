@@ -8,6 +8,8 @@ import "./index.css";
 import "./App.css";
 import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
+import Login from "./pages/Cart";
+import Cart from "./pages/Cart";
 
 
 const router = createBrowserRouter([
@@ -18,6 +20,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Homepage />, // Render Homepage for the index route
+      },
+      {
+        path: "cart",
+        element: <Cart />,
       },
     ],
   },

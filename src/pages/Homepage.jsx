@@ -173,7 +173,7 @@ function Homepage() {
                   <span className="text-sm font-bold">iPhone 16 Teal</span>
                   <p className="text-xs text-gray-700">128GB 8GB RAM</p>
                   </div>
-                  <span className="font-bold text-red-600">$25.99</span>
+                  <span className="font-bold text-red-600">$799</span>
                   </div>
                   <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
@@ -188,7 +188,7 @@ function Homepage() {
                   <span className="text-sm font-bold">Hisense 32" TV</span>
                   <p className="text-xs text-gray-700">Smart TV</p>
                   </div>
-                  <span className="font-bold text-red-600">$25.99</span>
+                  <span className="font-bold text-red-600">$325.50</span>
                   </div>
                   <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
@@ -203,7 +203,7 @@ function Homepage() {
                   <span className="text-sm font-bold">Poolee K650 </span>
                   <p className="text-xs text-gray-700">Bluetooth Speaker</p>
                   </div>
-                  <span className="font-bold text-red-600">$25.99</span>
+                  <span className="font-bold text-red-600">$25</span>
                   </div>
                   <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
@@ -218,7 +218,7 @@ function Homepage() {
                   <span className="text-sm font-bold">XE Power Bank</span>
                   <p className="text-xs text-gray-700">60,000MAH</p>
                   </div>
-                  <span className="font-bold text-red-600">$25.99</span>
+                  <span className="font-bold text-red-600">$17</span>
                   </div>
                   <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
@@ -233,7 +233,7 @@ function Homepage() {
                   <span className="text-sm font-bold">Galaxy S24 Ultra</span>
                   <p className="text-xs text-gray-700">512GB 12GB RAM</p>
                   </div>
-                  <span className="font-bold text-red-600">$25.99</span>
+                  <span className="font-bold text-red-600">$1,187</span>
                   </div>
                   <button className="hover:bg-sky-700 text-gray-50 text-sm  bg-black py-2 rounded-md flex gap-3 justify-center items-center">Add to cart <ShoppingBag size={12} /></button>
                   </div>
@@ -279,7 +279,7 @@ function Homepage() {
 
           <section className="p-10 pb-11 md:p-20 lg:p-20 bg-black grid grid-cols-1 gap-3 items-center justify- md:mx-16 lg:mx-32 md:mb-16 lg:mb-16">
             <h1 className="text-white md:text-center lg:text-center">Subscribe to our Newsletter to get the latest news on our offers</h1>
-            <div className="grid md:flex lg:flex gap-3 md:justify-center lg:justify-center items-center"><div className="flex items-center gap-2"><MailCheck size={24} color="white" /><input type="text" className="border-[1px] border-solid border-white outline-none text-white p-2 px-5 bg-black text-sm w-full" placeholder="Your email address" /></div><button className="bg-white w-1/2 md:w-auto lg:w-auto text-black hover:text-white hover:bg-black duration-300 border-[1px] border-white p-2 px-5 text-[13px]">Subscribe</button></div>
+            <div className="grid md:flex lg:flex gap-3 md:justify-center lg:justify-center items-center"><div className="flex items-center gap-2"><MailCheck size={24} color="white" /><input type="email" className="border-[1px] border-solid border-white outline-none text-white p-2 px-5 bg-black text-sm w-full" placeholder="Your email address" /></div><button type="submit" className="bg-white w-1/2 md:w-auto lg:w-auto text-black hover:text-white hover:bg-black duration-300 border-[1px] border-white p-2 px-5 text-[13px]">Subscribe</button></div>
           </section>
 
     </main>
