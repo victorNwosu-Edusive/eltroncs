@@ -13,7 +13,7 @@ function Cart() {
       <h1 className="text-sm md:text-xl lg:text-xl font-extrabold"><div className="flex items-center  gap-4">Your Shopping Cart <ShoppingBag size={17} /></div> </h1>
       <div className="rounded-md border-[2px] my-10 border-gray-100 p-10 ">
         <h1 className="text-[12px] text-center mb-7 text-gray-400">There are no items in your cart</h1>
-        <button className="bg-black mx-auto flex text-white text-sm px-5 p-2 rounded-md duration-300 hover:bg-gray-500">Start shopping</button>
+        <button className="bg-black mx-auto flex text-white text-sm px-5 p-2 rounded-sm duration-300 hover:bg-gray-600">Start shopping</button>
       </div>
 
     </main>
