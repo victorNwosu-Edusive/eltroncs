@@ -277,9 +277,9 @@ function Homepage() {
 
           </section>
 
-          <section className="p-10 pb-11 md:p-20 lg:p-20 bg-black grid grid-cols-1 gap-3 items-center justify-center">
+          <section className="p-10 pb-11 md:p-20 lg:p-20 bg-black grid grid-cols-1 gap-3 items-center justify- md:mx-16 lg:mx-32 md:mb-16 lg:mb-16">
             <h1 className="text-white md:text-center lg:text-center">Subscribe to our Newsletter to get the latest news on our offers</h1>
-            <div className="grid md:flex lg:flex gap-3 md:justify-center lg:justify-center items-center"><div className="flex items-center gap-2"><MailCheck size={24} color="white" /><input type="text" className="border-[1px] border-solid border-white outline-none text-white p-2 px-5 bg-black w-full" placeholder="Your email address" /></div><button className="bg-white w-1/2 md:w-auto lg:w-auto text-black p-2 px-5 text-sm">Subscribe</button></div>
+            <div className="grid md:flex lg:flex gap-3 md:justify-center lg:justify-center items-center"><div className="flex items-center gap-2"><MailCheck size={24} color="white" /><input type="text" className="border-[1px] border-solid border-white outline-none text-white p-2 px-5 bg-black text-sm w-full" placeholder="Your email address" /></div><button className="bg-white w-1/2 md:w-auto lg:w-auto text-black hover:text-white hover:bg-black duration-300 border-[1px] border-white p-2 px-5 text-[13px]">Subscribe</button></div>
           </section>
 
     </main>
@@ -287,3 +287,4 @@ function Homepage() {
 }
 
 export default Homepage;
+ 
