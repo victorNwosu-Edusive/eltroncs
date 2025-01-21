@@ -1,0 +1,10 @@
+[
+    {
+        "id": "apple01",
+        "product": "iPhone 16 Pro", 
+        "image": "./assets/images/iphone16.webp",
+        "price": "$863.28",
+        "specifications": ""
+
+    }
+]

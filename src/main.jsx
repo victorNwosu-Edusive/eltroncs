@@ -10,6 +10,7 @@ import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import Login from "./pages/Cart";
 import Cart from "./pages/Cart";
+import WishList from "./pages/Wishlist";
 
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "cart",
         element: <Cart />,
+      },
+      {
+        path: "wishlists",
+        element: <WishList />,
       },
     ],
   },
