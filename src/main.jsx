@@ -11,6 +11,7 @@ import Homepage from './pages/Homepage';
 import Login from "./pages/Cart";
 import Cart from "./pages/Cart";
 import WishList from "./pages/Wishlist";
+import UserProfile from "./pages/UserProfile";
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "wishlists",
         element: <WishList />,
+      },
+      {
+        path: "userprofile",
+        element: <UserProfile />,
       },
     ],
   },

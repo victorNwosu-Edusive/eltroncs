@@ -19,16 +19,15 @@ function Footer() {
 
             <div>
                 <h1 className='text-[16px] font-[500]'>Quick Links</h1>
-                <NavLink to="/" className="p-2 block duration-300 text-[14px] " title="About Us">Categories &#8599;</NavLink>
-                <NavLink to="/" className="p-2 block  duration-300 text-[14px] " title='Academics'>Featured &#8599;</NavLink>
-                <NavLink to="/" className="p-2 block duration-300 text-[14px] " title='Admissions'>FAQs &#8599;</NavLink>
-                <NavLink to="/" className="p-2 block  duration-300 text-[14px] " title='Gallery'>Terms and Conditions &#8599;</NavLink>
-                <NavLink to="/" className="p-2 block duration-300 text-[14px] " title='Contact Us'>Help Center &#8599;</NavLink>
+                <NavLink to="/" className="p-2 block duration-300 text-[14px] hover:underline " title="Categories">Categories &#8599;</NavLink>
+                <NavLink to="/" className="p-2 block  duration-300 text-[14px] hover:underline " title='Featured'>Featured &#8599;</NavLink>
+                <NavLink to="/" className="p-2 block duration-300 text-[14px] hover:underline " title='Frequently Asked Questions'>FAQs &#8599;</NavLink>
+                <NavLink to="/" className="p-2 block  duration-300 text-[14px] hover:underline " title='Terms and Conditions'>Terms and Conditions &#8599;</NavLink>
+                <NavLink to="/" className="p-2 block duration-300 text-[14px] hover:underline " title='Help Center'>Help Center &#8599;</NavLink>
             </div>
 
             <div>
-                <h1 className='text-[16px] font-[500] mb-2'>Contact Information
-                </h1>
+                <h1 className='text-[16px] font-[500] mb-2'>Contact Information</h1>
                 <div className='flex items-center gap-2'><Phone size={14} />: <p className="text-[14px]">+234 456 7890</p></div>
                 <div className='flex items-center gap-2'><MailIcon size={14} />: <p className="text-[14px]">support@eltroncs.com</p></div>
                 <div className='flex items-center gap-2'><LocateIcon size={14} />: <p className="text-[14px]">Lagos, Nigeria</p></div>
