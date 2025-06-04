@@ -98,11 +98,11 @@ function Homepage() {
     <main className="pt-24 bg-white">
       <header className="relative overflow-hidden">
         {/* Slides Container */}
-        <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+        <div className="flex mx-10 gap-4 rounded-lg transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
           {slides.map((slide, index) => (
             <div
               key={index}
-              className={`flex-shrink-0 w-full h-auto ${slide.bgColor} p-10 md:p-20 lg:p-20 pt-14 pb-16 md:pb-0 lg:pb-0 grid gap-3 grid-cols-2`}
+              className={`flex-shrink-0 rounded-lg w-full h-auto ${slide.bgColor} p-10 md:p-20 lg:p-20 pt-14 pb-16 md:pb-0 lg:pb-0 grid gap-3 grid-cols-2`}
             >
               <div className="flex flex-col justify-center items-start">
                 <h1 className="text-[10px] md:text-[12px] lg:text-[12px] font-bold mb-1 tracking-wider">{slide.subText}</h1>
@@ -117,7 +117,7 @@ function Homepage() {
                   {slide.buttonText} <MoveRight size={13} />
                 </button>
               </div>
-              <div>
+              <div className="sm:hidden md:block lg:block">
                 <img src={slide.image} alt="" className="mt-14" />
               </div>
             </div>
@@ -277,7 +277,7 @@ function Homepage() {
 
           </section>
 
-          <section className="p-10 pb-11 md:p-20 lg:p-20 bg-black grid grid-cols-1 gap-3 items-center justify- md:mx-16 lg:mx-32 md:mb-16 lg:mb-16">
+          <section className="p-10 pb-11 md:p-20 lg:p-20 rounded-lg bg-black grid grid-cols-1 gap-3 items-center justify- md:mx-16 lg:mx-32 md:mb-16 lg:mb-16">
             <h1 className="text-white md:text-center lg:text-center">Subscribe to our Newsletter to get the latest news on our offers</h1>
             <div className="grid md:flex lg:flex gap-3 md:justify-center lg:justify-center items-center"><div className="flex items-center gap-2"><MailCheck size={24} color="white" /><input type="email" className="border-[1px] border-solid border-white outline-none text-white p-2 px-5 bg-black text-sm w-full" placeholder="Your email address" /></div><button type="submit" className="bg-white w-1/2 md:w-auto lg:w-auto text-black hover:text-white hover:bg-black duration-300 border-[1px] border-white p-2 px-5 text-[13px]">Subscribe</button></div>
           </section>
