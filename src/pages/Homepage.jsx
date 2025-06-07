@@ -7,7 +7,7 @@ import oriamo from '../assets/images/oraimo.png';
 import hisense from '../assets/images/hisense.png';
 import hp from '../assets/images/hp.png';
 import { NavLink } from "react-router-dom";
-import HeroImageOne from '../assets/images/hero-section-one.png';
+import HeroImageOne from '../assets/images/hero-section-e.png';
 import HeroPercent from '../assets/images/hero-percent.png';
 import HeroAccess from '../assets/images/hero-access.png';
 import HeroHome from '../assets/images/hero-home.png';
@@ -27,13 +27,13 @@ function Homepage() {
 
   const slides = [
     {
-      bgColor: "bg-purple-100",
+      bgColor: "bg-purple-100/75",
       subText: "LATEST TECH GADGETS",
       title: "Step Into the Future of Tech!",
       description: "Find the newest phones, laptops, and gadgets from top brands.",
       image: HeroImageOne,
       tags: ["Phones", "Laptops", "Monitors"],
-      tagColor: "bg-purple-200 border-[2px] border-purple-400 rounded-full text-purple-400",
+      tagColor: "bg-transparent border-[2px] border-purple-400 rounded-full text-purple-400",
       buttonText: "Shop now",
       buttonColor: "bg-purple-800",
       buttonHover: "bg-purple-950",
@@ -50,25 +50,25 @@ function Homepage() {
       buttonHover: "bg-orange-950",
     },
     {
-      bgColor: "bg-teal-100",
+      bgColor: "bg-teal-100/75",
       subText: "PREMIUM ACCESSORIES",
       title: "Complete your Tech Setup!",
       description: "High-quality accessories for all your devices, all in one place",
       image: HeroAccess,
       tags: ["Chargers", "Cases", "Tripods"],
-      tagColor: "bg-teal-200 border-[2px] border-teal-400 rounded-full text-teal-400",
+      tagColor: "bg-transparent border-[2px] border-teal-400 rounded-full text-teal-400",
       buttonText: "Shop Accessories",
       buttonColor: "bg-teal-800",
       buttonHover: "bg-teal-950",
     },
     {
-        bgColor: "bg-blue-100",
+        bgColor: "bg-blue-100/75",
         subText: "SMART HOME ESSENTIALS",
         title: "Ugrade to a Smarter Home!",
         description: "Discover Smart TVs Home Security systems, and more",
         image: HeroHome,
         tags: ["Televisions", "Speakers", "ACs"],
-        tagColor: "bg-blue-200 border-[2px] border-blue-400 rounded-full text-blue-400",
+        tagColor: "bg-transparent border-[2px] border-blue-400 rounded-full text-blue-400",
         buttonText: "Shop Now",
         buttonColor: "bg-blue-800",
         buttonHover: "bg-blue-950",
@@ -102,7 +102,7 @@ function Homepage() {
           {slides.map((slide, index) => (
             <div
               key={index}
-              className={`flex-shrink-0 rounded-lg w-full h-auto ${slide.bgColor} p-10 md:p-20 lg:p-20 pt-14 pb-16 md:pb-0 lg:pb-0 grid gap-3 grid-cols-2`}
+              className={`flex-shrink-0 relative rounded-lg w-full h-auto ${slide.bgColor} p-10 md:p-20 lg:p-20 pt-14 pb-16 md:pb-0 lg:pb-0 grid gap-3 md:grid-cols-2`}
             >
               <div className="flex flex-col justify-center items-start">
                 <h1 className="text-[10px] md:text-[12px] lg:text-[12px] font-bold mb-1 tracking-wider">{slide.subText}</h1>
@@ -113,11 +113,11 @@ function Homepage() {
                     <h1 key={i} className={`p-1 px-3 font-bold md:font-[500] lg:font-[500] ${slide.tagColor} text-[8px] md:text-[10px] lg:text-[10px]`}>{tag}</h1>
                   ))}
                 </div>
-                <button className={`flex justify-center items-center px-2 p-2 rounded-md ${slide.buttonColor} hover:bg-black duration-300 text-white gap-3 text-[10px] md:text-[14px] lg:text-[14px] `}>
+                <button className={`flex justify-center items-center px-6 p-2 rounded-md ${slide.buttonColor} hover:bg-black duration-300 text-white gap-3 text-[10px] md:text-[14px] lg:text-[14px] `}>
                   {slide.buttonText} <MoveRight size={13} />
                 </button>
               </div>
-              <div className="sm:hidden md:block lg:block">
+              <div className="absolute md:relative lg:relative -bottom-4 md:-bottom-0 lg:-bottom-0 ml-32 md:ml-0 lg:ml-0 -z-10 md:-z-0 lg:-z-0">
                 <img src={slide.image} alt="" className="mt-14" />
               </div>
             </div>
